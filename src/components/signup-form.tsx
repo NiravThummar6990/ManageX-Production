@@ -40,7 +40,9 @@ export function SignupForm({
       navigate("/dashboard")
       return
     }
-    toast.error("Please fill all fields. Password must be at least 8 characters.")
+    toast.error(
+      "Please fill all fields. Password must be at least 8 characters."
+    )
   }
 
   return (
@@ -207,7 +209,7 @@ export function SignupForm({
           </form>
           <div className="relative hidden md:block">
             <img
-              src="../src/assets/sideimg.png"
+              src="/assets/sideimg.png"
               alt="Image"
               className="object-covor absolute inset-0 h-full w-full"
             />

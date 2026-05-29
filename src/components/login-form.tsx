@@ -143,7 +143,7 @@ export function LoginForm({
           </form>
           <div className="relative hidden md:block">
             <img
-              src="../src/assets/sideimg.png"
+              src="/assets/sideimg.png"
               alt="Image"
               className="absolute inset-0 h-full w-full object-fill"
             />

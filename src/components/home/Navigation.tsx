@@ -14,10 +14,6 @@ export default function Navigation() {
       name: <GiDeerHead />,
       link: "/",
     },
-    // {
-    //   name: "About",
-    //   link: "/about",
-    // },
   ]
 
   return (
@@ -26,7 +22,7 @@ export default function Navigation() {
         {/* logo */}
         <div className="flex h-14 items-center pl-4 md:h-18">
           <img
-            src="../src/assets/main.png"
+            src="/assets/main.png"
             alt="ManageX Logo"
             className="h-12 w-32 object-contain md:h-30"
             width={20}
@@ -90,7 +86,7 @@ export default function Navigation() {
                 key={i.link}
                 to={i.link}
                 className="text-2 font-medium"
-                  onClick={() => setMobileMenuOpen(false)}
+                onClick={() => setMobileMenuOpen(false)}
               >
                 {i.name}
               </Link>
